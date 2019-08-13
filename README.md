@@ -6,9 +6,9 @@ First clone this repo in your Device Tree folder by doing -
 
 ### Then check your ROM source for KeyHandler to match the one present in ZenfoneParts
 
-To do this just go to your respective ROM's **platform_frameworks_base** repo and navigate to **core/java/android/provider** and open up Settings.java search for `DEVICE_PROXI_CHECK_ENABLED`
+To do this just go to your respective ROM's **platform_frameworks_base** repo and navigate to **core/java/android/provider** and open up **Settings.java** search for `DEVICE_PROXI_CHECK_ENABLED`
 
-If the above phrase is as it is then you dont have to edit it in ZenfoneParts but if it's something different, like for example in Bootleggers ROM it is `OMNI_DEVICE_PROXI_CHECK_ENABLED` then you have to replace `DEVICE_PROXI_CHECK_ENABLED` line to `OMNI_DEVICE_PROCI_CHECK_ENABLED` from **ZenfoneParts/src/com/asus/zenparts/KeyHandler.java** and **ZenfoneParts/src/com/asus/zenparts/settings/DeviceSettings.java**
+If the above phrase is as it is then you dont have to edit it in ZenfoneParts but if it's something different, like for example in Bootleggers ROM it is `OMNI_DEVICE_PROXI_CHECK_ENABLED` then you have to replace `DEVICE_PROXI_CHECK_ENABLED` line to `OMNI_DEVICE_PROXI_CHECK_ENABLED` from **ZenfoneParts/src/com/asus/zenparts/KeyHandler.java** and **ZenfoneParts/src/com/asus/zenparts/settings/DeviceSettings.java**
 
 You have to do the exact same for `BUTTON_EXTRA_KEY_MAPPING`
 
