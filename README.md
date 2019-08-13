@@ -1,6 +1,6 @@
 # How to add ZenfoneParts to your Device Tree
 
-###First clone this repo in your Device Tree folder by doing -
+First clone this repo in your Device Tree folder by doing -
 
 `git clone https://github.com/saurabhchardereal/ZenfoneParts.git`
 
@@ -19,4 +19,4 @@ https://github.com/travarilo/device_asus_X00T/commit/e3f05754dd1b066749951529091
 ### And that's it! You have successfully added ZenfoneParts to your DT
 
 
-#All credit goes to @travarilo and @Genkzsz11 for ZenfoneParts!
+**All credit goes to _@travarilo_ and _@Genkzsz11_ for ZenfoneParts!**
